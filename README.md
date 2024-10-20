@@ -14,7 +14,7 @@ roBaは[keyball](https://github.com/Yowkees/keyball/)に影響を受けたワイ
 ## Build Guide
 
 ビルドガイド（公式）は[こちら](https://github.com/kumamuk-git/roBa/blob/main/doc/buildguide.md)
-rk mod を購入のかたは[こちら](https://github.com/rk2kk/roBa/blob/main/doc/buildguide.md)
+rk mod を購入のかたは[こちら](https://github.com/rk2kk/roBa-rk-mod-main/blob/main/doc/buildguide.md)
 
 
 
