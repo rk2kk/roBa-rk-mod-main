@@ -408,7 +408,7 @@ zmk firmwareを使用しているため、ご自身でファームウェアや�
 親指部分に4mmスペーサを使用します。他は7mmスペーサを使用します。
 ※赤◯には7mm、緑◯には4mmのスペーサーを取り付けます。
 ![alt text](img/spacer.jpg)
-![alt text](img/top_1.JPG)
+![alt text](img/top_mod.jpg)
 ![alt text](img/bottom_battery.jpg)
 
 
