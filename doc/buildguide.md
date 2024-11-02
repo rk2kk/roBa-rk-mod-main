@@ -39,10 +39,10 @@
 
 ### 1-1．キット内容
 
-![alt text](img/parts_1.jpg.JPG)
-![alt text](img/parts_2.jpg.JPG)
-![alt text](img/parts_3.jpg.JPG)
-![alt text](img/parts_4.jpg.JPG)
+![alt text](img/parts_1.jpg)
+![alt text](img/parts_2.jpg)
+![alt text](img/parts_3.jpg)
+![alt text](img/parts_4.jpg)
 
 | 名前 | 数 | 備考 |
 |:-|---:|:-|
