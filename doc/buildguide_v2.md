@@ -40,7 +40,8 @@
 
 ### 1-1．キット内容
 
-
+> [!WARNING]
+>　付属部品がroBaと異なります。
 
 | 名前 | 数 | 備考 |
 |:-|---:|:-|
@@ -92,7 +93,7 @@
 | Xiao nrf52840                 | 2個   |  |[主な購入先](https://akizukidenshi.com/catalog/g/g117341/)|
 | CherryMX互換キースイッチ      | 37個  |  |
 | ロープロファイルキースイッチ  | 5個   |  |
-| 直径34mmトラックボール        | 1個   |  |[主な購入先](https://www.amazon.co.jp/%E3%81%BA%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9-PERIPRO-303WH-%E4%BA%A4%E6%8F%9B%E7%94%A8%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%91%E3%83%BC%E3%83%AB%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88Perixx-PM-517-%E4%BA%A4%E6%8F%9B%E7%94%A8%E3%83%9C%E3%83%BC%E3%83%AB%E4%BA%92%E6%8F%9B%E6%80%A7%E6%9C%89%E3%82%8A%E5%85%89%E6%B2%A2%E4%BB%95%E4%B8%8A%E3%81%92%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E5%9E%8B/dp/B0D4F4HMXD/ref=sr_1_7?dib=eyJ2IjoiMSJ9.0RCXO5ib2-AFCi9uTFyZmltVMcNilIHzCawZL9iwAscZOGSYMMhlpg6oEuoB43-tN4d__DHxpRXRdC7EYDVmsXuC_ysLRkw1FIOY3h9qgXOXcu9_ySr5lftnZ2yp01oNdi_yFdaGp5v6tEeEcrsUkBgTj2mB6B9NDvSx5r-We7EYeQ8x4ySdJF384bEiP0F-rYpAsTBLsx_KQM9FIdhCwCo4RqZr3ohDIEBXcaRVwHVaTZ1xFQD63YsHDXRRg8KCnRVzl0iuqKmS8_5_ux2VuXOjZ9z96fgN6Q_6t59IZf8.cRtt7oACdluyAKPRQDVTcrW1F0GZI9ckfuRRN-3FcMI&dib_tag=se&keywords=%E3%81%BA%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9&qid=1723728036&sr=8-7)|
+| 直径25mmトラックボール        | 1個   |  |　|
 | Lipoバッテリー(コネクタ付き)  | 2個   | ボトムプレートはL53mm × H23mm × H6mm 以内の大きさに対応 キット付属のコネクタは2mmピッチのJSTコネクタになります|[主な購入先](https://www.amazon.co.jp/gp/product/B09DPNZM31/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&th=1)|
 | USB type-Cケーブル            | 1本   | ファームウェア書込みと充電に必要 |
 | キーキャップ                  | 37個  | 1u 37個 |
@@ -296,6 +297,10 @@ v2から基板に直付けになりました。
 <a id="anchor38"></a>  
 
 ### 3-8．ロータリーエンコーダの組み立て  
+> [!WARNING]
+>　ロータリーエンコーダーは付属しません。kumakeyさんから購入お願いします。
+
+
 以前採用していた水平ロータリーエンコーダの入手性が悪すぎたので、いい感じのを作りました。  
 ![alt text](img/koro.JPG)  
 
@@ -306,7 +311,7 @@ v2から基板に直付けになりました。
 
 つなぎ目の不要な部分が残ってしまうと思うのでこれはペンチ等ではさんでおりましょう。
 
-![alt text](mg/koro2.JPG)  
+![alt text](img/koro2.JPG)  
 
 切れ目がとがってしまうので気になる方はやすって平らにしてください。  
 私は見えなかったことにしました。  
@@ -397,38 +402,34 @@ v2から基板に直付けになりました。
 
 <a id="anchor42"></a>  
 
-### 4-2．ケースの組み立て
+### 4-2．ケースとトッププレートの取り付け
+> [!WARNING]
+>　roBaとケース異なります。
 
-リセットスティックをケースの裏から差し込みます。
-このスティックを介してマイコンのリセットボタンを押せるようにしています。 
-(写真のスティックはv1のものなのでv2のものより短いです。) 
+トッププレートとボトムプレートの【裏面】に7mmスペーサをねじ止めします。
+親指をロープロファイル仕様で組み立てる場合には、親指キー用トッププレートには4mmスペーサを取り付けます。
+※赤◯には7mm、緑◯には4mmのスペーサーを取り付けます。（MX版）
+※赤◯、緑◯ともには4mmのスペーサーを取付ます。（LP版）
+![alt text](img/spacer.jpg)
+![alt text](img/top_mod.jpg)
+![alt text](img/bottom_battery.jpg)
 
-![alt text](img/reset_1.JPG)
 
-↓試作で自分用に印刷したやつなので色が異なってます
+次に半田付けしたミドル基板もネジ穴を合わせ、キースイッチの端子がしっかりキーソケットに入ることを確認しながら重ねます。
+ 
+トッププレートとボトムプレートでメイン基板を挟み込み固定する構造になっています。  
 
-![alt text](img/case_2.JPG)
+バッテリーケースにバッテリーを収納します。  
+この時バッテリーの裏に両面テープを貼り、ケースへ固定することをお勧めします。  
 
-リセットスティックが落ちないように気を付けつつ、ケースの裏に基板を配置します。  
 
-![alt text](img/case_4.JPG)
 
-この時USB端子の位置がちょうどよい位置に来るように調整してください。
+バッテリーを収納することができたら、ボトムプレートのスペーサーに取り付けます。  
 
-![alt text](../img/case_3.JPG)
 
-手で基板を裏から抑えつつ、四隅にスイッチを差し込み、ケースと基板を固定します。
 
-![alt text](../img/case_5.JPG)
-
-ケースと基板が固定出来たら、ボトムプレートを取り付けます。  
-ケースの底面内側に小さなツメが前後にあるので、ボトムプレートのくぼみがそこに嵌るようにまず片側を押し込みます。
-
-![alt text](../img/case_6.JPG)  
-
-片側を合わせることができたらもう片側もくぼみにツメが嵌るように押し込みます。
-
-![alt text](../img/case_7.JPG)
+![alt text](img/bottom_battery_1.jpg)
+![alt text](img/bottom_battery_2.jpg)
 
 
 <a id="anchor43"></a>  
