@@ -104,8 +104,8 @@
 | 名前                          | 数    | 備考 |参考情報|
 |:-|-:|:-|:-|
 | Xiao nrf52840                 | 2個   |  |[主な購入先](https://akizukidenshi.com/catalog/g/g117341/)|
-| CherryMX互換キースイッチ      | 37個  |  |
-| ロープロファイルキースイッチ  | 5個   |  |
+| CherryMX互換キースイッチ      | 37個  | LP版は不要です |
+| ロープロファイルキースイッチ  | 5個   | LP版は42個 |
 | 直径25mmトラックボール        | 1個   |  |　|
 | Lipoバッテリー(コネクタ付き)  | 2個   | ボトムプレートはL53mm × H23mm × H6mm 以内の大きさに対応 キット付属のコネクタは2mmピッチのJSTコネクタになります|[主な購入先](https://www.amazon.co.jp/gp/product/B09DPNZM31/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&th=1)|
 | USB type-Cケーブル            | 1本   | ファームウェア書込みと充電に必要 |
@@ -211,6 +211,7 @@ zmk firmwareを使用しているため、ご自身でファームウェアや�
 そして表面から出たピンをはんだ付けし、固定します。  
 > [!caution]
 > LP版においては可能な限り、表面が平らになるようにしてください。
+
 ![alt text](img/powersw_3.JPG)
 
  
