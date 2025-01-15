@@ -9,16 +9,17 @@ roBaは[keyball](https://github.com/Yowkees/keyball/)に影響を受けたワイ
 
 ## Whare to Buy
 
-(公式)[BOOTH](https://kumamuk.booth.pm/)にて組み立てキットが購入可能
+メルカリにて組み立てキットが購入可能
 
 ## Build Guide
 
 [ビルドガイド（公式）はこちら](https://github.com/kumamuk-git/roBa/blob/main/doc/buildguide.md)
 
 
-[rk mod v1 を購入のかたはこちら](https://github.com/rk2kk/roBa-rk-mod-main/blob/main/doc/buildguide.md)
+[rk mod v1 を購入のかたはこちら](https://github.com/rk2kk/roBa-rk-mod-main/blob/main/doc/buildguide_v1.md)
 
-[rk mod v2 を購入のかたはこちら](https://github.com/rk2kk/roBa-rk-mod-main/blob/main/doc/buildguide.md)
+
+[rk mod v2 を購入のかたはこちら](https://github.com/rk2kk/roBa-rk-mod-main/blob/main/doc/buildguide_v2.md)
 
 
 
