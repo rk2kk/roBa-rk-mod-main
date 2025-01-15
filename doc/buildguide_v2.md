@@ -143,15 +143,15 @@ zmk firmwareを使用しているため、ご自身でファームウェアや�
 
 ダイオード用パッドの片側にはんだを盛ります。  
 
-![alt text](../img/diode_1.JPG)
+![alt text](img/diode_1.JPG)
 
 そしてピンセットでダイオードを掴み、シルクと向きを合わせて事前に盛ったはんだを溶かしつつ位置を合わせます。 
 
- ![alt text](../img/diode_2.JPG)
+ ![alt text](img/diode_2.JPG)
 
 およそシルクと同じ位置に決まったら、もう片側もはんだで固定します。
 
-![alt text](../img/diode_3.JPG)
+![alt text](img/diode_3.JPG)
 
 ピンセットでダイオードが取れないことを確認したら取り付け完了です。  
 これをすべて(43箇所)に対して行います。
@@ -163,16 +163,16 @@ zmk firmwareを使用しているため、ご自身でファームウェアや�
 親指部分はchoc用のキーソケットを使用してください。  
 ダイオードと同様に片方のパッドに事前にはんだを盛ります。  
 
-![alt text](../img/socket_1.JPG)
+![alt text](img/socket_1.JPG)
 
 そして、キーソケットをシルクに合う向きで基板にはめ込みます。  
 その状態のまま、キーソケットをピンセットで抑えつつ、事前に盛ったはんだを溶かすとキーソケットが沈み、固定できます。  
 
-![alt text](../img/socket_2.JPG)
+![alt text](img/socket_2.JPG)
 
 固定出来たら、反対側のパッドもはんだで固定します。  
 
-![alt text](../img/socket_3.JPG)
+![alt text](img/socket_3.JPG)
 
 <!--
 写真  (ロータリーエンコーダ取り付け部分のソケット)
@@ -184,15 +184,15 @@ zmk firmwareを使用しているため、ご自身でファームウェアや�
 このスライドスイッチが電源スイッチとなります。  
 スライドスイッチは基板表面に実装します。  
 
-![alt text](../img/powersw_1.JPG)
+![alt text](img/powersw_1.JPG)
 
 表面からピンを差し込み、マスキングで仮止めします。  
 
-![alt text](../img/powersw_2.JPG)
+![alt text](img/powersw_2.JPG)
 
 そして裏面から出たピンをはんだ付けし、固定します。  
 
-![alt text](../img/powersw_3.JPG)
+![alt text](img/powersw_3.JPG)
 
 はんだ付け後、ピンが長い場合はペンチ等で短くカットしても良いかもしれません。  
 
@@ -205,7 +205,7 @@ v2から基板に直付けになりました。
 その後、xiao ble付属のピンヘッダをその上から差し込み、xiao bleが基板に対してずれないように固定します。  
 (ピンヘッダははんだ付けしないので気をつけてください。)    
 
-![alt text](../img/xiao_pin.JPG)    
+![alt text](img/xiao_pin.JPG)    
 
 その状態で、切り欠きの入ったスルーホールがxiao bleの裏面のパッドと重なっていることを確認し、はんだで各パッドとスルーホールを繋ぎます。  
 製造の都合上でスルーホールの切り欠き部分が残ってしまっている場合がありますが、無理に取らずにそのままはんだ付けしてください。
@@ -215,17 +215,17 @@ v2から基板に直付けになりました。
 私も一度ブリッジしてしまったのですが、手元に吸い取り線がなかったため、スルーホールに小手先を当てながら基板を逆さにして重力で小手先側へはんだを流し込むというプリミティブ解決をしましたが、危ないので非推奨です。  
 
 
-![alt text](../img/xiao_handa.JPG)  
-![alt text](../img/kote.JPG)  
+![alt text](img/xiao_handa.JPG)  
+![alt text](img/kote.JPG)  
 
 適切にはんだ付けできるとこんな感じになります。
 
-![alt text](../img/handa_kekka.JPG)
+![alt text](img/handa_kekka.JPG)
 
 2箇所とも裏面がはんだ出来たらピンヘッダは外してOKです。
 続いて表面にし、写真のようにxiaoの各端子の側面と基板のパッドをはんだ付けします。
 
-![alt text](../img/xiao_omote.JPG)  
+![alt text](mg/xiao_omote.JPG)  
 
 以上でマイコンの取り付け完了です。  
 
@@ -236,8 +236,8 @@ v2から基板に直付けになりました。
 コネクタは裏面に実装します。  
 
 2本生えている足と側面をはんだ付けで固定します。  
-![alt text](../img/ph1.JPG)
-![alt text](../img/ph2.JPG)
+![alt text](img/ph1.JPG)
+![alt text](img/ph2.JPG)
 
 左右各1箇所、計2箇所取り付けます。
 
@@ -251,11 +251,11 @@ v2から基板に直付けになりました。
 コンスルーは基板表面に実装します。  
 表面から差し込み、マスキングテープで仮止めします。
 
-![alt text](../img/L_1.JPG)
+![alt text](img/L_1.JPG)
 
 そして、裏面からはんだで固定します。  
 
-![alt text](../img/L_2.JPG)
+![alt text](img/L_2.JPG)
 
 トラックボール取り付け側の基板のみ1箇所です。  
 
@@ -268,7 +268,7 @@ v2から基板に直付けになりました。
 このとき、向きを間違えないよう写真をよく確認してください。  
 裏面に書かれた文字とセンサに書かれた文字の上下が揃っている向きが正しい向きです。 
 
-![alt text](../img/sensor_1.JPG)![alt text](../img/sensor_2.JPG)
+![alt text](img/sensor_1.JPG)![alt text](img/sensor_2.JPG)
 
 そして、表面に出たセンサのピンをすべてはんだ付けしていきます。  
 センサのデータシートによると**最大260℃**までの温度、**7秒以内**でのはんだづけが推奨されています。  
@@ -282,31 +282,31 @@ v2から基板に直付けになりました。
 センサが動作しない場合は、まず、この部分のはんだに不良がないか確認するとよいです。  
 基板の接続は以下のようになっていますので参考にしてください。
 
-![alt text](../img/sensor_3.png)
+![alt text](img/sensor_3.png)
 
 
 はんだづけが完了したら保護シールをはがしてください。
 
-![alt text](../img/sensor_4.JPG)
+![alt text](img/sensor_4.JPG)
 
 センサの取り付けが完了したら、レンズを装着してください。 
 
-![alt text](../img/sensor_5.JPG)
+![alt text](img/sensor_5.JPG)
 
 <a id="anchor38"></a>  
 
 ### 3-8．ロータリーエンコーダの組み立て  
 以前採用していた水平ロータリーエンコーダの入手性が悪すぎたので、いい感じのを作りました。  
-![alt text](../img/koro.JPG)  
+![alt text](img/koro.JPG)  
 
 まず、つながっている基板を切り離します。
 カッターで切れ目をひっかき、その後、丁寧に折ると割れます。
 
-![alt text](../img/koro1.JPG)    
+![alt text](img/koro1.JPG)    
 
 つなぎ目の不要な部分が残ってしまうと思うのでこれはペンチ等ではさんでおりましょう。
 
-![alt text](../img/koro2.JPG)  
+![alt text](mg/koro2.JPG)  
 
 切れ目がとがってしまうので気になる方はやすって平らにしてください。  
 私は見えなかったことにしました。  
@@ -316,13 +316,13 @@ v2から基板に直付けになりました。
 マステ等で固定して、裏からはんだ付けがいいかな思います。  
 
 ***↓これが表面です。***
-![alt text](../img/koro11.JPG)
-<!-- ![alt text](../img/koro3.JPG) -->
+![alt text](img/koro11.JPG)
+<!-- ![alt text](img/koro3.JPG) -->
 
 続いて裏面から8mmのネジで3mmスペーサーを固定します。  
 このスペーサーが上下基板を繋ぐ導体になります。
 
-<!-- ![alt text](../img/koro4.JPG)   -->
+<!-- ![alt text](img/koro4.JPG)   -->
 
 そして写真のようにコンスルーを取り付けます。  
 
@@ -330,7 +330,7 @@ v2から基板に直付けになりました。
 ***キット付属のコンスルーは現状私がカットしており、カットミスで2pin側のコンスルーが1pin×2個になってしまっているものがあります。***  
 ***取り付けにくい場合は切断面をやすりで削る等対応いただけるとありがたいです。***
 
-![alt text](../img/koro8.JPG)
+![alt text](mg/koro8.JPG)
 
 
 続いて上側の基板です。  
@@ -342,7 +342,7 @@ v2から基板に直付けになりました。
 きれいにはんだ出来ているように見えてもここを疑ってください。
 
 
-![alt text](../img/koro5.JPG)
+![alt text](img/koro5.JPG)
 
 エンコーダにホイールとステムを取り付けます。  
 まず、ホイールを置き、そしてスイッチ側からホイールの穴を通す形でステムを入れ込み、
@@ -351,20 +351,20 @@ v2から基板に直付けになりました。
 ***ステムの先端と、エンコーダーの穴がそれぞれ六角形になっているので、向きが合うのを確認してから慎重に差し込んでください。***
 
 
-![alt text](../img/koro6.JPG)
+![alt text](img/koro6.JPG)
 
 そして上からハウジングをかぶせます。
 ハウジングの細かいサポート材が取り切れていないときれいに嵌らない場合があるので、もし取り残しがあればピンセットなどで取り除いてください。  
 
 
-![alt text](../img/koro7.JPG)
+![alt text](mg/koro7.JPG)
 
 上下を取り付けます。
 タクトスイッチ裏のパッドにポゴピンが当たるような向きにして、ネジをハウジングに差し込み固定してください。  
 この際に固定が緩いと上下の基板の接続不良となってしまうため、しっかりと固定してください。
 
-![alt text](../img/koro9.JPG)
-![alt text](../img/koro10.JPG)  
+![alt text](img/koro9.JPG)
+![alt text](img/koro10.JPG)  
 ↑隙間がなくなるまでネジを締めてください。
 
 以上で組み立て完了です。  
@@ -390,7 +390,7 @@ v2から基板に直付けになりました。
 裏面、USBが上になるような向きでバッテリーの銅線の赤い線が左に来ていれば極性は問題ないです。
 購入したバッテリが合っているかを確認し取り付けてください。
 
-![alt text](../img/case_1.JPG) 
+![alt text](mg/case_1.JPG) 
 
 続いてバッテリーの裏に両面テープを貼り、ボトムプレートへ固定してください。  
 いい感じのスチールプレートをボトムプレート内に張り付けるとテンティング用にいいかもですね。
@@ -403,15 +403,15 @@ v2から基板に直付けになりました。
 このスティックを介してマイコンのリセットボタンを押せるようにしています。 
 (写真のスティックはv1のものなのでv2のものより短いです。) 
 
-![alt text](../img/reset_1.JPG)
+![alt text](img/reset_1.JPG)
 
 ↓試作で自分用に印刷したやつなので色が異なってます
 
-![alt text](../img/case_2.JPG)
+![alt text](img/case_2.JPG)
 
 リセットスティックが落ちないように気を付けつつ、ケースの裏に基板を配置します。  
 
-![alt text](../img/case_4.JPG)
+![alt text](img/case_4.JPG)
 
 この時USB端子の位置がちょうどよい位置に来るように調整してください。
 
@@ -437,7 +437,7 @@ v2から基板に直付けになりました。
 
 メイン基板のL字コンスルーにトラックボール読み取り基板を差し込みます。  
 
-![alt text](../img/tb_1.JPG)
+![alt text](img/tb_1.JPG)
 
 <a id="anchor44"></a>
 
@@ -445,15 +445,15 @@ v2から基板に直付けになりました。
 
 トラックボール読み取り基板を取り付け後、トラックボールケースを上から差し込み、ボトムプレート裏からM1.7ネジで固定します。
 
-![alt text](../img/tb_2.JPG)
+![alt text](img/tb_2.JPG)
 
-![alt text](../img/tb_3.JPG)
+![alt text](img/tb_3.JPG)
 
 <a id="anchor45"></a>
 
 ### 4-5．電源スイッチキャップ装着
 
-![alt text](../img/power_1.JPG)
+![alt text](img/power_1.JPG)
 
 電源スイッチキャップをスライドスイッチに差し込みます。
 緩いと感じる場合はラップの破片など挟むとよい滑り止めになるかもしれません。
@@ -491,7 +491,7 @@ settings_reset-seeeduino_xiao_ble-zmk.uf2は[ここ](https://zmk.dev/docs/troubl
 2. マイコンのリセットボタンを2回押すと、「XIAO SENSE」という名前でUSBドライブとして認識されるかと思います。 (ブートローダの起動)
 3. 「XIAO SENSE」ドライブにsettings_reset-seeeduino_xiao_ble-zmk.uf2をドラッグアンドドロップします。  
 ※MacOSの場合、以下のようなエラーが出るようですが無視して進めて問題なく、実際には書込みができているとのことです。 (画像提供：shakupanさん)
-![alt text](../img/mac_errorz-reset.png)
+![alt text](img/mac_errorz-reset.png)
 4. 書込み完了すると、「XIAO SENSE」というドライブは消えますが、再度セットボタンを2回押し、ブートローダを起動します。  
 5. 「XIAO SENSE」ドライブにroBa_L-seeeduino_xiao_ble-zmk.uf2をドラッグアンドドロップします。  
 6. 右側も同様の手順でsettings_reset-seeeduino_xiao_ble-zmk.uf2とroBa_R-seeeduino_xiao_ble-zmk.uf2を順番に書き込みます。
@@ -519,19 +519,19 @@ bluetooth接続が完了したらすべてのキーが認識するか、ロー�
 1. githubアカウントを作成し、ログインします。
 2. [このリポジトリ](https://github.com/kumamuk-git/zmk-config-roBa)にアクセス
 3. 画面右上の「Fork」をクリック
-![](../img/fork.jpg)
+![](img/fork.jpg)
 4. そのまま「Create fork」をクリック
-![](../img/createfork.jpg)
+![](img/createfork.jpg)
 5. フォークしたリポジトリの「Actions」タブに移動し、「I understand my workflows, go ahead and enable them」をクリックし、github Actionsを有効化
-![](../img/enableActions.jpg)
+![](img/enableActions.jpg)
 6. [KeymapEditor](https://nickcoutsos.github.io/keymap-editor/)にアクセス  
 7. 「GitHub」を選択
-![](../img/keymapeditor1.jpg)  
+![](img/keymapeditor1.jpg)  
 8. 「Login with GitHub」からでログインし、「Authorize Keymap Editor」を選択  
 9. 指示に従い、フォークしたzmk-config-roBaにKeymap Editorがアクセスできるように進める
 10. Keymap Editor上でキーマップが表示されたら、好きにキーマップを編集する
 11. 画面左上の「Save」を押すと、編集したキーマップが適用されてGitHub Actionsが走り、自動的にビルドが開始します
-![](../img/keymapeditor2.jpg)
+![](img/keymapeditor2.jpg)
 12. 「Save」の隣に表示される「Latest」をクリックするとGitHubに移動し、ビルドが完了するとファームウェアがダウンロードできるようになります。  
 （ビルドには2～4分かかる場合があります。）
 13. [書込み手順](#5-2ファームウェア仮の書込み)に従い、ファームウェアを書き込みます。  
